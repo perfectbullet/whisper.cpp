@@ -19,3 +19,6 @@ ffmpeg -i new_name_of_ldjj.wav -acodec pcm_s16le -ac 1 -ar 16000 out.wav
 cd ..
 ./main -m models/ggml-base.bin -ng -f samples/out.wav 
 ./main -m models/ggml-base.bin -ng -l zh -f samples/out.wav 
+
+
+
